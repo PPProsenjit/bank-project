@@ -10,11 +10,13 @@ document.getElementById('btn-submit').addEventListener('click',function () {
     const password = passwordField.value;
     //console.log(passwordField.value);
     //4. check input mail or password are valid or not 
-    if(email === 'habu@gimal.com' && password ==='habukhay'){
-        console.log('habu is a good boy!');
+    if(email === 'habu@gmail.com' && password ==='habukhay'){
+        //console.log('habu is a good boy!');
+        window.location.href = 'bank.html';
     }
     else{
         alert('You forgoter your mail or password!! We are very upsate dear.')
     }
 
 })
+
